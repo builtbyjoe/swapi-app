@@ -30,4 +30,4 @@ To run tests:
 
 ## Demo
 
-To view a demo of the applicationm, [please click here](https://willowy-empanada-9ed764.netlify.app/).
+To view a demo of the application, [please click here](https://willowy-empanada-9ed764.netlify.app/).
