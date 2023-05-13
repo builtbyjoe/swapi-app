@@ -29,10 +29,11 @@ function PeopleTable() {
                 setHasNextPage(x.next !== null);
                 setHasPrevPage(x.previous !== null);
                 setPeople([...x.results]);
-                setIsLoading(false);
             })
             .catch((error) => {
                 setErrorMessage(error.message);
+            })
+            .finally(() => {
                 setIsLoading(false);
             });
     }, [peopleApiEndpoint, currentPage, searchTerm]);
